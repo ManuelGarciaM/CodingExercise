@@ -1,0 +1,11 @@
+CodingExercise/static/
+.idea/
+db.sqlite3
+venv/
+*pycache*
+
+# Elastic Beanstalk Files
+.ebextensions/*
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
