@@ -28,7 +28,7 @@ Located in single_page_app folder
 
 Hosted on AWS S3 http://coding-exercise-fs.s3-website-us-west-2.amazonaws.com/
 
-##Part 2: Code challenges
+## Part 2: Code challenges
 Located in Part 2 folder
 
 First part can be tested by `python printer.py`
@@ -37,5 +37,5 @@ First part can be tested by `python test_printer.py`
 
 Both parts can run using python 2 or 3.
 
-####SQL part
+#### SQL part
 Located in Part 2 folder in query.sql.
