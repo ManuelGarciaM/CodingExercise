@@ -10,9 +10,8 @@ class TestApi(APITestCase):
         response = self.client.get('/api/')
 
         expected = {
-            'Name': 'Sahel Market',
-            'Latitude': 49.264579,
-            'Longitude': -123.176254
+            'name': 'Sahel Market',
+            'location': [-123.176254, 49.264579]
         }
 
         self.assertEqual(response.status_code, status.HTTP_200_OK)

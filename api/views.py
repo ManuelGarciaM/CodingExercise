@@ -4,11 +4,10 @@ from rest_framework.views import APIView
 
 
 class POIList(APIView):
-    def get(self, request, format=None):
+    def get(self, request):
         # If this were a real application, this would be in the database
         poi = {
-            'Name': 'Sahel Market',
-            'Latitude': 49.264579,
-            'Longitude': -123.176254
+            'name': 'Sahel Market',
+            'location': [-123.176254, 49.264579],
         }
         return Response(poi)
