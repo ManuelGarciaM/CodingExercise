@@ -17,6 +17,8 @@ The code can be run by first creating a virtual environment `virtualenv -p pytho
 
 The server can be run with `python manage.py runserver`
 
+The api endpoint can then be found at http://localhost:8000/api/. Note that static files will not be loaded unless `python manage.py collectstatic` is also run.
+
 The tests can be run with `python manage.py test api`
 
 Note that `python manage.py test` will throw an import error because of a python test from the second part of the test. I  included the code here so I wouldn't have to manage a bunch of repos. It can be safely moved out of this directory without impacting the rest api. 
