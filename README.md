@@ -1,4 +1,4 @@
-##Part 1 Api
+## Part 1 Api
 
 This servers a simple endpoint at /api/. 
 It currently only has the location of my favorite restaurant.
